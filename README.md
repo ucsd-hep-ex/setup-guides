@@ -8,7 +8,7 @@
 2. Choose resources (CPU, GPU etc.)
 3. Choose a disk image, you can either:
    1. Start from a standard image such as Ubuntu
-   2. Start from a custom image we've made, such as `rk-image-1` which has cuda and PyTorch installed. You can also [https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images](make your own image) and use that.
+   2. Start from a custom image we've made, such as `rk-image-1` which has cuda and PyTorch installed. You can also [make your own image](https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images) and use that.
 4. Select 'Allow HTTP traffic' and 'Allow HTTPS traffic'.
 5. Create the image.
 
@@ -26,7 +26,7 @@ Some notes for using them.
 - **Remember to shut them down if you are not using them**
   - `Compute Engine -> VM Instances -> <your instance name>` and click `Shutdown`. 
   - The instance state will be saved so you can continue from where you left off if you want to start it again.
-  - You can leave a process running and exit the instance by using, for example, [https://www.computerhope.com/unix/unohup.htm](nohup) or [https://www.computerhope.com/unix/screen.htm](screen).
+  - You can leave a process running and exit the instance by using, for example, [nohup](https://www.computerhope.com/unix/unohup.htm) or [screen](https://www.computerhope.com/unix/screen.htm).
   - You can start an http server to access your server files from your browser using `python -m http.server`, which can be run in the background with screen or nohup.
 
 ### Specific image instructions
