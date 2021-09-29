@@ -8,7 +8,7 @@
 2. Choose resources (CPU, GPU etc.)
 3. Choose a disk image, you can either:
    1. Start from a standard image such as Ubuntu
-   2. Start from a custom image we've made, such as `rk-image-1` which has cuda and PyTorch installed. You can also make your own image and reuse that.
+   2. Start from a custom image we've made, such as `rk-image-1` which has cuda and PyTorch installed. You can also [https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images](make your own image) and use that.
 4. Select 'Allow HTTP traffic' and 'Allow HTTPS traffic'.
 5. Create the image.
 
@@ -36,8 +36,3 @@ Some notes for using them.
 1. Switch to user with `su user` and the home directory `/app/`.
 2. You may need to add miniconda to your path: `export PATH="/app/miniconda3/bin:$PATH"
 3. Go nuts.
-
-
-
-
-   
