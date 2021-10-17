@@ -27,7 +27,7 @@ Some notes for using them.
   - `Compute Engine -> VM Instances -> <your instance name>` and click `Shutdown`. 
   - The instance state will be saved so you can continue from where you left off if you want to start it again.
 - You can leave a process running and exit the instance by using, for example, [nohup](https://www.computerhope.com/unix/unohup.htm) or [screen](https://www.computerhope.com/unix/screen.htm).
-- You can start an http server to access your server files from your browser using `python -m http.server`, which can be run in the background with screen or nohup.
+- You can start an http server to access your server files from your browser using `python -m http.server`, which can be run in the background with screen or nohup. (e.g. `screen -d -m python3 -m http.server 80`)
 
 ### Specific image instructions
 
