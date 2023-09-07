@@ -4,6 +4,7 @@ Some guides for setting up computing resources.
 
 1. [Fermilab LPC](fermilab-lpc.md)
 2. [Google Cloud](google-cloud.md)
+3. [CERN Lxplus](lxplus.md)
 
 - [Setup Guides](#setup-guides)
   - [General conda / mamba set-up:](#general-conda--mamba-set-up)
